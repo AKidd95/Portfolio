@@ -22,11 +22,16 @@
         %h1 some other random shit to see where all my stuff is
   %section.about
     .column-left
-      %h2 go
+      %h2 about
     .column-main
       .column-main-container-small
-        %h3 blahhhhh
+        %h3 Im some dude who you haven't heard of... Until now.
   %section.footer
     .column-left
+      %h2
+        .projects
+        - data.projects.each do |project|
+          %h4= project[:name]
+          %p= project[:description]
     .column-main
       %h3.light-text KiddPlaygrounds. All Right Reserved. 2018
