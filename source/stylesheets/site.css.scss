@@ -1,7 +1,7 @@
 // body stylling
 body {
     margin-left: 60px;
-    margin-top: 20px;
+    margin-top: 25px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.4;
@@ -17,11 +17,13 @@ section {
   margin-bottom: 80px;
 }
 
-// .header {
-//   align-items: baseline;
-// }
+.top-header {
+  align-items: baseline;
+  font-size: 32px;
+}
 
 .column-left {
+  margin-top: 10px;
   width: 10%;
 }
 
@@ -39,7 +41,12 @@ section {
 
 .column-right-main {
   float: right;
-  margin-right: 70px;
+  margin-right: 35px;
+  display: inline-block;
+
+}
+li {
+  display: inline;
 }
 
 .about {
@@ -48,7 +55,7 @@ section {
 
 .footer {
   margin-bottom: 40px;
-  text-decoration-color: light
+  color: #606060;
 }
 
 .light-text {

@@ -6,15 +6,6 @@
   %link{ :rel => "stylesheet", :href => "css/bootstrap.min.css" }
 
 %body
-  %section.header
-    .column-left
-      %h2 AKJ
-    .column-main
-      %h3.top-header Aiden Kidd Jubelin Portfolio
-      .column-right-main
-        %h3 contact
-        .telephone (+46) 72-205 64 95
-        %a{ href: "mailto:Aiden.jubelin@gmail.com", title: "Contact"} Contact
   %section
     .column-left
       %h2 word
@@ -27,12 +18,3 @@
     .column-main
       .column-main-container-small
         %h3 Im some dude who you haven't heard of... Until now.
-  %section.footer
-    .column-left
-      %h2
-        .projects
-        - data.projects.each do |project|
-          %h4= project[:name]
-          %p= project[:description]
-    .column-main
-      %h3.light-text
