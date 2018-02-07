@@ -17,9 +17,9 @@ section {
   margin-bottom: 80px;
 }
 
-.header {
-  align-items: baseline;
-}
+// .header {
+//   align-items: baseline;
+// }
 
 .column-left {
   width: 10%;
@@ -48,6 +48,12 @@ section {
 
 .footer {
   margin-bottom: 40px;
+  text-decoration-color: light
+}
+
+.light-text {
+  color: #606060;
+    text-decoration: none;
 }
 
 // text styles
@@ -71,56 +77,4 @@ h3 {
   font-weight: 400;
   padding-right: 20px;
   display: inline;
-}
-
-// header
-header {
-    align-items: baseline;
-}
-
-section {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin-bottom: 80px;
-}
-//  column left
-.column-left {
-    width: 15%;
-}
-
-.column-left {
-    width: 10%;
-}
-
-div {
-    display: block;
-}
-
-// column main
-column-main {
-    width: 85%;
-}
-
-.column-main {
-    width: 90%;
-}
-
-div {
-    display: block;
-}
-
-// column right header
-.header-contact {
-    display: none;
-}
-
-.column-right-main {
-    float: right;
-    margin-right: 35px;
-}
-
-
-div {
-    display: block;
 }
