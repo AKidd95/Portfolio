@@ -11,20 +11,30 @@ body {
 }
 
 section {
-  display: flex;
+  display: inline;
   justify-content: flex-start;
   align-items: flex-end;
   margin-bottom: 80px;
+  border-bottom: 15px;
 }
+
+li {
+  display: inline;
+  letter-spacing: 0.5px;
+}
+
+//section styles
 
 .top-header {
   align-items: baseline;
   font-size: 32px;
+  margin-bottom: inherit;
 }
 
 .column-left {
   margin-top: 10px;
   width: 10%;
+  line-height: 10px;
 }
 
 .column-main {
@@ -33,20 +43,14 @@ section {
 
 .column-main-container-large {
   padding-right: 10%;
-}
-
-.column-main-container-small {
-  padding-right: 50%;
+  border: none;
 }
 
 .column-right-main {
   float: right;
   margin-right: 35px;
-  display: inline-block;
-
-}
-li {
   display: inline;
+
 }
 
 .about {
@@ -59,6 +63,11 @@ li {
 }
 
 .light-text {
+  color: #606060;
+    text-decoration: none;
+}
+
+.telephone {
   color: #606060;
     text-decoration: none;
 }
