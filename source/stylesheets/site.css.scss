@@ -21,6 +21,7 @@ section {
 li {
   display: inline;
   letter-spacing: 0.5px;
+  line-height: 20px;
 }
 
 //section styles
@@ -70,6 +71,14 @@ li {
 .telephone {
   color: #606060;
     text-decoration: none;
+}
+
+.light-text.h1 {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0;
+  color: #606060;
 }
 
 // text styles
