@@ -7,21 +7,21 @@
           %li= name[:email]
           %li= name[:phone]
     .profile-image
-      %img(src='images/Aiden.jpg' alt='photo of ya boi' style="width: 400px; height:350px; border-radius: 10px;")
+      %img( src='images/Aiden .jpg' alt='photo of ya boi' style="width: 400px; height:350px; border-radius: 10px;")
   .education
     %h2 education
-    %ul
+    %ul.cv
       - data.education.each do |education|
         %li= education[:education]
         %p= education[:description]
   .skills
     %h2 Hard Skills
-    %ul
+    %ul.cv
       - data.hard_skills.each do |hard_skills|
         %li= hard_skills[:hard_skills]
         %p= hard_skills[:description]
 
     %h2 Soft Skills
-    %ul
+    %ul.cv
       - data.soft_skills.each do |soft_skills|
         %li= soft_skills[:soft_skills]
