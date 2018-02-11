@@ -7,6 +7,7 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem 'middleman-livereload'
 gem 'haml'
 gem 'html2haml'
+gem 'middleman-deploy', '= 2.0.0.pre.alpha'
 
 group :development, :test do
   gem 'capybara'
