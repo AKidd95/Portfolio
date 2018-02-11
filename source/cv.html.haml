@@ -1,7 +1,6 @@
 %body
   %section
     .contact-info
-      %h3 Aiden Kidd Jubelin
       %ul
         - data.contact.each do |name|
           %li= name[:address]
@@ -9,17 +8,17 @@
           %li= name[:phone]
     .profile-image
   .education
-    %h4 education
+    %h2 education
     %ul
       - data.education.each do |education|
         %li= education[:education]
         %p= education[:description]
   .skills
-    %h4 Hard Skills
+    %h2 Hard Skills
     %ul
       - data.skills.each do |skills|
         %li= skills[:hard_skills]
-    %h4 Soft Skills
+    %h2 Soft Skills
     %ul
       - data.skills.each do |skills|
         %li= skills[:soft_skills]
