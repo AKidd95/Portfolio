@@ -1,12 +1,13 @@
 %body
   %section
     .contact-info
-      %ul
+      %ul.contact
         - data.contact.each do |name|
           %li= name[:address]
           %li= name[:email]
           %li= name[:phone]
     .profile-image
+      %img(src='images/Aiden.jpg' alt='photo of ya boi' style="width: 400px; height:350px; border-radius: 10px;")
   .education
     %h2 education
     %ul
@@ -16,9 +17,11 @@
   .skills
     %h2 Hard Skills
     %ul
-      - data.skills.each do |skills|
-        %li= skills[:hard_skills]
+      - data.hard_skills.each do |hard_skills|
+        %li= hard_skills[:hard_skills]
+        %p= hard_skills[:description]
+
     %h2 Soft Skills
     %ul
-      - data.skills.each do |skills|
-        %li= skills[:soft_skills]
+      - data.soft_skills.each do |soft_skills|
+        %li= soft_skills[:soft_skills]
