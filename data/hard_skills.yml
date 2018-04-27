@@ -1,4 +1,6 @@
 - hard_skills: Programming Languages
-  description: Ruby, Javascript, HTML, and CSS proficiency
+  description: Ruby, Javascript, HTML, and CSS
+- hard_skills: Frameworks
+  description: Ruby on Rails, Angular-Ionic, Middleman
 - hard_skills: Computer proficiency
-  description: Familiarity with multiple OS's and above average WPM
+  description: Familiarity with multiple OS's and 67 WPM
