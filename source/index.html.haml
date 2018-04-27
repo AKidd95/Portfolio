@@ -11,7 +11,10 @@
       %h2 Focus
     .column-main
       .column-main-container-large
-        %h1 I aim to write solid and readable code for all users, and in the future be able to create professional web applications.
+      - data.about do |about|
+        about[:read]
+        about[:description]
+
     .column-left
       %h2 Projects
     .column-main

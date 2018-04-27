@@ -20,7 +20,7 @@ describe 'CV page', type: :feature do
     end
   end
 
-  it 'displays hard_skills' do
+  it 'displays hard skills' do
     visit '/cv.html'
 
     expect(page).to have_css '.hard_skills'
