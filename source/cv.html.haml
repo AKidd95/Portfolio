@@ -17,9 +17,9 @@
   .skills
     %h2 Hard Skills
     %ul.cv
-      - data.hard_skills.each do |skills|
-        %li= skills[:hard_skills]
-        %p= skills[:description]
+      - data.hard_skills.each do |hard_skills|
+        %li= hard_skills[:hard_skills]
+        %p= hard_skills[:description]
     %h2 Soft Skills
     %ul.cv
       - data.soft_skills.each do |soft_skills|

@@ -11,7 +11,7 @@
       %h2 Focus
     .column-main
       .column-main-container-large
-      - data.about do |about|
+      - data.about.each do |about|
         %p= about[:read]
         %p= about[:description]
     .column-left
