@@ -1,8 +1,8 @@
-- hard_skills: Programming Languages:
+- hard_skills: 'Programming Languages:'
   description: Ruby, Javascript, HTML, and CSS
-- hard_skills: Frameworks:
+- hard_skills: 'Frameworks:'
   description: Ruby on Rails, Angular-Ionic, Middleman
-- hard_skills: Agile XP:
+- hard_skills: 'Agile XP:'
   description: Pair Programmming, Continuous Integration, and Test-Driven Development
-- hard_skills: Computer proficiency:
+- hard_skills: 'Computer proficiency:'
   description: Familiarity with multiple OS's and 67 WPM

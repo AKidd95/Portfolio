@@ -12,9 +12,8 @@
     .column-main
       .column-main-container-large
       - data.about do |about|
-        about[:read]
-        about[:description]
-
+        %p= about[:read]
+        %p= about[:description]
     .column-left
       %h2 Projects
     .column-main
