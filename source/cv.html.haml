@@ -14,6 +14,12 @@
       - data.education.each do |education|
         %li= education[:education]
         %p= education[:description]
+  .experience
+    %h2 Experience
+    %ul.cv
+      - data.experience.each do |jobs|
+        %li= jobs[:experience]
+        %p= jobs[:description]
   .skills
     %h2 Hard Skills
     %ul.cv

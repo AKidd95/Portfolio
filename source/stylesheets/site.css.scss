@@ -105,14 +105,13 @@ li {
 
 .cv{
   font-size: 22px;
-
+  line-height: 25px;
 }
 
 // text styles
 h1 {
   font-size: 72px;
   font-weight: 500;
-  line-height: 1.1;
   margin: 0;
 }
 
@@ -129,4 +128,121 @@ h3 {
   font-weight: 400;
   padding-right: 20px;
   display: inline;
+}
+
+//ipad styling
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+  .top-header {
+    align-items: baseline;
+    font-size: 32px;
+    margin-bottom: inherit;
+  }
+  
+  .center-column{
+    font-size: 32px;
+    text-align: right;
+    margin-top: 10px;
+    float: right;
+    letter-spacing: 2px;
+  }
+  
+  .column-left {
+    margin-top: 10px;
+    width: 10%;
+    line-height: 10px;
+  }
+  
+  .column-main {
+    width: 90%;
+  }
+  
+  .column-main-container-large {
+    padding-right: 10%;
+    border: none;
+  }
+  
+  .column-right-main {
+    float: right;
+    margin-right: 35px;
+    display: inline;
+    font-size: 32px;
+  
+  }
+  
+  .footer {
+    margin-bottom: 40px;
+    color: #606060;
+    text-align: left;
+    float: left;
+  }
+  
+  .light-text {
+    color: #606060;
+      text-decoration: none;
+  }
+  
+  .telephone {
+    color: #606060;
+      text-decoration: none;
+  }
+  
+  .light-text.h1 {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 0;
+    color: #808080;
+  }
+  
+  .foot {
+    display: inline;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    list-style: none;
+  }
+  
+  .contact{
+    list-style: none;
+  }
+  
+  .profile-image {
+    margin-right: 150px;
+    float: right;
+    width: 200px; 
+    height: 175px; 
+    border-radius: 10px;
+  }
+  
+  .cv{
+    font-size: 22px;
+    line-height: 25px;
+  }
+  
+  .interest{
+    font-size: 40px;
+  }
+ 
+  // text styles
+  h1 {
+    font-size: 72px;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #7c7c7c;
+    transform: translateY(7px);
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 20px;
+    display: inline;
+  }
 }
