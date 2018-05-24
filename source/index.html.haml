@@ -8,12 +8,19 @@
 %body
   %section
     .column-left
+      %h2 About
+    .column-main
+      .column-main-container-large
+        %h1 
+          - data.about.each do |read|
+            %p= read[:description]
+    .column-left
       %h2 Focus
     .column-main
       .column-main-container-large
         %h1 
-          - data.about.each do |focus|
-            %p= focus[:description]
+          - data.about.each do |about|
+            %p= about[:focus]
     .column-left
       %h2 Projects
     .column-main
@@ -28,8 +35,3 @@
     .column-main
       .column-main-container-large
         %h1 Ruby, Javascript, Html, CSS.
-    .column-left
-      %h2 Services
-    .column-main
-      .column-main-container-large
-        %h1 Front and Back end development, configuring RESTful API's, .
