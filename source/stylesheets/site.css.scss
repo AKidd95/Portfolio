@@ -59,7 +59,6 @@ li {
   margin-right: 35px;
   display: inline;
   font-size: 32px;
-
 }
 
 .footer {
@@ -98,9 +97,10 @@ li {
   list-style: none;
 }
 
-.profile-image {
+img {
   margin-right: 150px;
   float: right;
+  max-height: auto;
 }
 
 .cv{
@@ -210,8 +210,8 @@ and (max-device-width : 1024px)  {
   .profile-image {
     margin-right: 150px;
     float: right;
-    width: 200px; 
-    height: 175px; 
+    width: 100px; 
+    height: 85px; 
     border-radius: 10px;
   }
   
