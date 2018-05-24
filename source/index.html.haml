@@ -11,16 +11,18 @@
       %h2 Focus
     .column-main
       .column-main-container-large
-        %h1 I deliver quality web applications with an emphasis on working code that accomplishes its desired.
+        %h1 
+          - data.about.each do |focus|
+            %p= focus[:description]
     .column-left
       %h2 Projects
     .column-main
       .column-main-container-large
         %h1 Recently completed projects include
-        %a.light-text.h1{ href: "https://github.com/AKidd95/ATM_demo", title: "ATM", :target => "_blank" } ATM ,
-        %a.light-text.h1{ href: "https://github.com/AKidd95/paps", title: "News Agency", :target => "_blank"} News Agency ,
-        %a.light-text.h1{ href: "https://github.com/AKidd95/paps_mobile", title: "Mobile News", :target => "_blank"} News Agency Mobile ,
-        %a.light-text.h1{ href: "https://github.com/AKidd95/BMI_Challenge", title: "BMI calculator", :target => "_blank" } BMI Calculator.
+        %a.light-text.h1{ href: "https://github.com/AKidd95/ATM_demo", title: "ruby & js challenge", :target => "_blank" } ATM ,
+        %a.light-text.h1{ href: "https://github.com/AKidd95/languaship_mobile", title: "Mobile frontend", :target => "_blank"} Mobile Language Matcher ,
+        %a.light-text.h1{ href: "https://github.com/AKidd95/languaship_backend", title: "backend", :target => "_blank"} Language Matcher Backend ,
+        %a.light-text.h1{ href: "https://github.com/AKidd95/BMI_Challenge", title: "ruby challenge", :target => "_blank" } BMI Calculator.
     .column-left
       %h2 Languages
     .column-main
