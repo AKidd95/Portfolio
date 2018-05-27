@@ -14,7 +14,6 @@ section {
   display: inline;
   justify-content: flex-start;
   align-items: flex-end;
-  margin-bottom: 80px;
   border-bottom: 15px;
 }
 
@@ -54,7 +53,7 @@ li {
 }
 
 .nav {
-  position: fixed;
+  position: absolute;
   z-index: 9999;
   top: 0;
   left: 0;
@@ -182,7 +181,6 @@ and (max-device-width : 1024px)  {
   }
   
   .column-right-main {
-    float: right;
     margin-right: 35px;
     display: inline;
     font-size: 32px;
