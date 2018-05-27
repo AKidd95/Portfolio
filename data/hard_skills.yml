@@ -1,10 +1,5 @@
-- hard_skills: 'Back-end Development: Ruby and Ruby on Rails'
-  description: 
-- hard_skills: 'Front-end Development: HTML, Javascript, Typescript, and CSS alongside Angular 2'
-  description: 
-- hard_skills: 'Databases: PostgreSQL'
-  description: 
-- hard_skills: 'DevOps: CI with Travis and Semaphore and CD with Heroku'
-  description: 
-- hard_skills: 'Mobile App Dev: Ionic'
-  description: 
+- hard_skills: 'Back-end Development: Ruby and Ruby on Rails' 
+- hard_skills: 'Front-end Development: HTML, Javascript, Typescript, and CSS alongside Angular 2' 
+- hard_skills: 'Databases: PostgreSQL' 
+- hard_skills: 'DevOps: CI with Travis and Semaphore and CD with Heroku' 
+- hard_skills: 'Mobile App Dev: Ionic' 

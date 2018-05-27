@@ -28,7 +28,6 @@ li {
 .top-header {
   align-items: baseline;
   font-size: 32px;
-  margin-bottom: inherit;
 }
 
 .center-column{
@@ -54,11 +53,16 @@ li {
   border: none;
 }
 
-.column-right-main {
-  float: right;
-  margin-right: 35px;
-  display: inline;
+.nav {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: inline-block;
   font-size: 32px;
+  margin: 0;
+  word-spacing: 50px;
 }
 
 .footer {
@@ -69,8 +73,19 @@ li {
 }
 
 .light-text {
-  color: #606060;
+  color: #979696;
     text-decoration: none;
+}
+
+.lighter-text{
+  color: #979696;
+    text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: .1em 1.65em;
+  float: right;
+  width: 0px;
+  word-spacing: 15px;
 }
 
 .telephone {
@@ -83,7 +98,7 @@ li {
   font-weight: 400;
   line-height: 1.1;
   margin: 0;
-  color: #808080;
+  color: #979696;
 }
 
 .foot {
@@ -98,15 +113,18 @@ li {
 }
 
 img {
-  margin-right: 150px;
+  margin-right: 25px;
   float: right;
-  max-height: auto;
+  height: 50px;
+  width: 50px;
+  image-rendering: inherit;
 }
 
 .cv{
   font-size: 22px;
   line-height: 25px;
 }
+
 
 // text styles
 h1 {
@@ -204,14 +222,6 @@ and (max-device-width : 1024px)  {
   
   .contact{
     list-style: none;
-  }
-  
-  .profile-image {
-    margin-right: 150px;
-    float: right;
-    width: 100px; 
-    height: 85px; 
-    border-radius: 10px;
   }
   
   .cv{
